@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div>
+      <header id="header">
+        <ul class="nav">
+          <li><a href="./index.html">CARS</a></li>
+        </ul>
+        <ul class="nav">
+          <li><a href="./addCar.html">ADD CAR</a></li>
+        </ul>
+      </header>
+      <div class="form-container">
+        <input placeholder="Item's title:" id="item-title" />
+        <input placeholder="Photo URL:" id="photo-url" />
+        <input placeholder="Price:" id="item-price" />
+        <input placeholder="Number plate:" id="number-plate" />
+        <button id="submit-button" class="submit-button">Add New Car</button>
+      </div>
+      <div id="submit-message" class="submit-message"></div>
+    </div>
+    <script type="module" src="./addCar.js"></script>
+  </body>
+</html>
